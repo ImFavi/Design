@@ -17,11 +17,16 @@
     <div class="ContainerLogin">
 
         <div class="LogoDesign">
-            <img src="/Recursos/Images/imagenNotFound.jpg" alt="Logo">
+            <img src="../../Recursos/Images/imagenNotFound.jpg" alt="Logo">
             <h1>DESIGN</h1>
         </div>
 
-        <form id="RegisterForm">
+        <form id="register-form">
+            <div class="Nombre">
+                <h1>Nombre y Apellido</h1>
+                <input type="text" id="username" name="username" required placeholder="Pepito Perez">
+            </div>
+            
             <div class="Correo">
                 <h1>Correo</h1>
                 <input type="email" id="correo" name="correo" required placeholder="ejemplo@design.cl">
@@ -38,6 +43,9 @@
             </div>
             <div class="Continuar">
                 <button type="submit"><span>Registrarse</span></button>
+            </div>
+            <div class="Volver">
+                <a href="../Login/login.html">Volver</a>
             </div>
         
         </form>

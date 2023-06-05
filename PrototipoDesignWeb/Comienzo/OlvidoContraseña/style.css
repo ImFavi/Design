@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(/Recursos/Images/officeMeeting.jpg);
+    background-image: url(../../Recursos/Images/officeMeeting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -18,13 +18,13 @@ body{
     background-color: #4E342E;
     position: absolute;
     width: 50vh;
-    height: 55vh;
+    height: 60vh;
     opacity: 80%;
 }
 
 .ContainerLogin{
     width: 50vh;
-    height: 55vh;
+    height: 60vh;
     box-shadow: 0 0 25px black;
     backdrop-filter: blur(5px);
     text-align: center;
@@ -93,4 +93,28 @@ body{
 
 .Continuar button:hover{
     background-color: #fed79b;
+}
+
+/* Boton volver */
+
+.Volver{
+    background-color: #C38154;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .3s;
+  }
+
+  .Volver a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .Volver:hover{
+    background-color: #F9E0BB;
 }

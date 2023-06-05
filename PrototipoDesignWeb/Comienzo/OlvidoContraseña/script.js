@@ -6,7 +6,7 @@ document.getElementById('RecuperarContraseña').addEventListener('submit', funct
     // Comprueba si las credenciales son válidas
     if (correo != '') {
       // Redirige a la página deseada después del inicio de sesión exitoso
-      window.location.href ='/Comienzo/Login/login.html';
+      window.location.href ='../Login/login.html';
     }
   });
   
