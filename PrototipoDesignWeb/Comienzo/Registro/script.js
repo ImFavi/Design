@@ -1,4 +1,4 @@
-document.getElementById('RegisterForm').addEventListener('submit', function(e) {
+document.getElementById('register-form').addEventListener('submit', function(e) {
   e.preventDefault(); // Evita que el formulario se envíe
 
   var correo = document.getElementById('correo').value;
@@ -13,6 +13,5 @@ document.getElementById('RegisterForm').addEventListener('submit', function(e) {
 
   // Muestra una alerta de registro exitoso
   alert('Registro exitoso');
-
-  window.location.href = '/Comienzo/Login/login.html';
+  window.location.href = '../Login/login.html';
 });
